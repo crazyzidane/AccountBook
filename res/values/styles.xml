@@ -1,0 +1,39 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    
+    <!-- 全局字体样式 -->
+    <style name="DefaultFontStyle">
+        <item name="android:textSize">18px</item>
+        <item name="android:textColor">#0000CC</item>
+    </style>
+    
+    
+	<!-- 全局背景色 -->
+    <style name="DefaultBgColor" parent="@style/DefaultFontStyle">
+        <item name="android:background">#F2F2F2</item>
+    </style>
+    
+    <!-- 全局样式-->  
+	<style name="DefaultStyle" parent="@style/DefaultBgColor">   
+	</style> 
+    
+    
+</resources>
